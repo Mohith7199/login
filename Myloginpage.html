@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+ <style>
+.container{background-color:red ;margin: auto;width: 800px;padding:20px}
+h2{text-align: center;}
+label{font-weight: bolder;}
+input{border-radius: 5px; border: solid black; padding: 5px; font-size:15px;box-sizing: border-box;}
+input[type="submit"]{background-color: darkgoldenrod;font-weight: bolder;}
+input[type="reset"]{background-color: darkgoldenrod; font-weight: bolder;}
+input[type="submit"]:hover{background-color: darkslategray;}
+input[type="reset"]:hover{background-color: darkslategray;}
+body{background-image: url(bg4.jpg);background-repeat: no-repeat;background-size: cover;}
+ </style>   
+<title>MY LOGIN PAGE</title>
+</head>
+<body>
+<div class="container">
+ <h2>LOGIN PAGE</h2> 
+ <br>  
+ <form>
+<label for="fname">FIRST NAME:</label>
+<input type="text"  name="fname" style="margin-right: 80px;" > 
+<label for="lname">LAST NAME:</label>
+<input type="text" name="lname">
+<br><br>
+<label for="email">EMAIL:</label>
+<input type="email" name="email" style="margin-right:90px;">
+<label for="phonenumber">PHONE NUMBER:</label>
+<input type="text" name="phonenumber">
+<br><br>
+<label for="password">PASSWORD:</label>
+<input type="password" name="password">
+<br><br><br>
+<input type="submit" style="margin-right: 25px;">
+<input type="reset" >
+ </form>
+</div>    
+</body>
+</html>
